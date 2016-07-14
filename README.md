@@ -7,7 +7,7 @@ My solution that scored 0.60002 and finished [Facebook V: Predicting Check Ins](
 * [XGBoost](https://github.com/dmlc/xgboost)
 
 ## Download:
-* The training and test datasets and other data can be downloaded from [here](https://www.kaggle.com/c/facebook-v-predicting-check-ins/data). Put them in /data/input folder
+* The training and test datasets can be downloaded from [here](https://www.kaggle.com/c/facebook-v-predicting-check-ins/data). Put them in /data/input folder
 
 ## How to generate the solution(s):
 Run:  
