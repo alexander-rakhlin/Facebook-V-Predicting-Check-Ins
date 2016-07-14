@@ -10,8 +10,8 @@ My solution that scored 0.60002 and finished [Facebook V: Predicting Check Ins](
 * The training and test datasets and other data can be downloaded from [here](https://www.kaggle.com/c/facebook-v-predicting-check-ins/data). Put them in /data/input folder
 
 ## How to generate the solution(s):
-Run:
-python main_ultra.py
+Run:  
+python main_ultra.py  
 python blender.py  
 
 You will get 9 individual and 1 ensembled submission in /submission folder
