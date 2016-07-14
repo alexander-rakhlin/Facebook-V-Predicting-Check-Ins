@@ -14,12 +14,14 @@ import multiprocessing as mp
 import ctypes
 import time
 import gc
+import os
 
 dumps = "dumps"
-input_dir = "data\input"
+input_dir = "data/input"
 train_file = "train_big.pkl"
 test_file = "test_big.pkl"
-
+if not exists(dumps): os.mkdir(dumps)
+    
 columns_to_drop = ["place_id", "time", 'x', 'y']
 
 box_sz = 10
